@@ -27,6 +27,7 @@ const FrontEndProjTwo= () => {
         </div>
       )}
     </Spring>
+    
     </div>
 }
 

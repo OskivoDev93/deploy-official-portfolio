@@ -17,6 +17,7 @@ function App() {
     <Route path="/contact-info" component={ContactInfo} />
     </div>
     </Router>
+    
   );
 }
 

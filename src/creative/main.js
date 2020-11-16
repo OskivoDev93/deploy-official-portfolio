@@ -10,10 +10,6 @@ export class Creativity extends React.Component{
         visible: true,
     }
 
-    getCreative() {
-       return console.log('clicked')
-    }
-
     render() {
         return(
                     <div>

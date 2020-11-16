@@ -7,7 +7,6 @@ import { Spring } from 'react-spring/renderprops';
 
 function ContactInfo() {
     return (
-        
         <div>
         <Spring from={{opacity: 0}} to={{opacity: 1}}>
             {props=> (

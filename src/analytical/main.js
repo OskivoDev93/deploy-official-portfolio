@@ -14,9 +14,6 @@ export class Analytical extends React.Component{
     }
 
     render() {
-
-
-
         return(
             <div>   
             {this.state.visible ? null : <Project/>}
