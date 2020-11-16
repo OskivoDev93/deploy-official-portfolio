@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Card } from 'react-bootstrap'
-import {FaGithub, FaGitlab, FaLinkedin} from 'react-icons/fa'
+import {FaGithub, FaGitlab, FaLinkedin, FaRegBell} from 'react-icons/fa'
 import {SiItchDotIo} from 'react-icons/si'
 import { Spring } from 'react-spring/renderprops';
 
@@ -28,7 +28,7 @@ function ContactInfo() {
                         </div>
                         <br/>
                         <br/>
-                             <p className="skillz">HTML|CSS|JAVASCRIPT|BOOTSTRAP|REACT|NODE|NEST|MYSQL</p>
+                             <p style={{color:'rgba(300,200,100, 0.5)'}} className="skillz">HTML|CSS|JAVASCRIPT|BOOTSTRAP|REACT|NODE|NEST|MYSQL</p>
                         </Card.Text>
                 <div className="social-links">
                 <a href="https://github.com/OskivoDev93"> <FaGithub style={{height:"50", width:"50" }}/> </a>

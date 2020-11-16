@@ -7,6 +7,10 @@
   text-shadow:  0 0 5px #358335, 0 0 10px #96a5ff, 0 0 15px #a53333, 0 0 20px #31bc09, 0 0 30px #337e21, 0 0 40px #77c3f7, 0 0 55px #53e62c, 0 0 75px #49ff18;;
 }
 
+.to-be-added {
+  text-shadow: 0 0 5px #d14752, 0 0 10px #aa4a4a, 0 0 15px #d41e1e, 0 0 20px #b82a2a, 0 0 30px #b82727, 0 0 40px #be3321, 0 0 55px #6eff48, 0 0 75px #0099fb;
+}
+
 .parent-block {
   border: 50px  black;
   border-style: hidden;
