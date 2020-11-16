@@ -20,10 +20,10 @@ function ContactInfo() {
                              Name: Mujadid Fadhlullah Hussain
                              </h3>
                              <h3>
-                             Age: 27
+                             job title: Back-end developer(current)
                              </h3>
                              <h3>
-                             job title: Back-end developer(current)
+                                 A self-taught developer aspiring to becoming a full-stack developer. 
                              </h3>
                         </div>
                         <br/>
