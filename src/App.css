@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+.app {
+  height: 100vh;
+  background: rgb(49, 49, 49);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading {
+  text-shadow:  0 0 5px #358335, 0 0 10px #96a5ff, 0 0 15px #a53333, 0 0 20px #31bc09, 0 0 30px #337e21, 0 0 40px #77c3f7, 0 0 55px #53e62c, 0 0 75px #49ff18;;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.parent-block {
+  border: 50px  black;
+  border-style: hidden;
+  float: left;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.back-project {
+  text-shadow: 0 0 5px #05164f, 0 0 10px #000000, 0 0 15px #335a56, 0 0 20px #ddffd3, 0 0 30px #4b5449, 0 0 40px #82bee7, 0 0 55px #6eff48, 0 0 75px #0099fb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.front-project {
+  text-shadow: 0 0 5px #054f06, 0 0 10px #25b647, 0 0 15px #335a56, 0 0 20px #ddffd3, 0 0 30px #78a16f, 0 0 40px #82bee7, 0 0 55px #6eff48, 0 0 75px #0099fb
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(95, 145, 94);
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.img-contact:hover {
+  transform: scale(1.2) translate(-60px, 550px);
+}
+
+
+
+.img-analytical:hover {
+  transform: scale(1.2) translateY(-30px) translateX(-20px); 
+ 
+}
+
+
+.img-analytical {
+  position: absolute;
+  left: 400px;
+  top: 300px
+}
+
+.img-creative {
+  position: absolute;
+  left: 30px;
+  top: 304px
+}
+
+
+.img-creative:hover {
+  transform: scale(1.2) translateY(-30px) translateX(30px);
+}
+
+
+.info {
+  font-family: fantasy;
+  color: #2d1db9bb;
+}
+
+.skillz {
+  font-family: fantasy;
+  text-shadow: 0 0 5px #2a3868, 0 0 10px #6478e9, 0 0 15px #ebfa1e, 0 0 20px #3d46c9, 0 0 30px #4e569e, 0 0 40px #77c3f7, 0 0 55px #82d8e7, 0 0 75px #49ff18;;
 }
