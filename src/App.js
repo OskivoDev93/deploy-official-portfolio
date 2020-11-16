@@ -13,8 +13,8 @@ function App() {
     <Router>
     <div className= "app d-block mx-auto text-center">
     <Nav />
-    <Route path="/brain" component={Brain} />
-    <Route path="/contact-info" component={ContactInfo} />
+    <Route path="/portfolio-official/brain" component={Brain} />
+    <Route path="/portfolio-official/contact-info" component={ContactInfo} />
     </div>
     </Router>
   );
