@@ -13,7 +13,7 @@ function Brain() {
     
   return (
     <div className= "app d-block mx-auto text-center">
-    <h1 className="heading" style={{color: '#FFF', backgroundColor: '#334d7a7d'}}>Welcome to my Brain</h1>
+    <h1 className="heading" style={{color: '#FFF', backgroundColor: '#334d7a7d'}}>Inside the minds of a software developer</h1>
     <Spring from={{opacity: 0}} to={{opacity: 1}}>
     {props => (
         <div style={props}>

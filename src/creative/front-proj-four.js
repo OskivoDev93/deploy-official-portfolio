@@ -8,7 +8,7 @@ const FrontEndProjFour= () => {
     <Spring from={{opacity: 0}} to={{opacity: 1}} leave={{opacity: 0}}>
       {props=> (
         <div style={props}>
-        <Card style={{ width: '16rem', margin: 'auto', height: '16rem', border: 'rgba(0, 123, 255, 0.5)', backgroundColor: '#4ba867', transform: ' translateY(-750px) translateX(450px)' }}>
+        <Card style={{ width: '16rem', margin: 'auto', height: '16rem', border: 'rgba(0, 123, 255, 0.5)', backgroundColor: '#4ba867', transform: ' translateY(-770px) translateX(250px)' }}>
   <Card.Body>
     <Card.Title style={{fontFamily:'fantasy'}}>Robofriends App</Card.Title>
     <Card.Text>

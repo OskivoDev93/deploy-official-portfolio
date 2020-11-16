@@ -1,4 +1,5 @@
 import '../App.css'
+import FrontEndProjFive from './front-proj-five';
 import FrontEndProjFour from './front-proj-four';
 import FrontEndProjOne from './front-proj-one';
 import FrontEndProjThree from './front-proj-three';
@@ -14,6 +15,7 @@ function Project() {
             <FrontEndProjTwo />
             <FrontEndProjThree />
             <FrontEndProjFour />
+            <FrontEndProjFive />
         </div>
     )
 }
