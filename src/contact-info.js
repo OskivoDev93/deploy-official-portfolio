@@ -11,11 +11,11 @@ function ContactInfo() {
         <Spring from={{opacity: 0}} to={{opacity: 1}}>
             {props=> (
                 <div style={props}>
-               <Card style={{ width: '40rem', margin: 'auto', height: '20rem', border: 'rgba(0, 123, 255, 0.5)', backgroundColor: '#4ba867', transform: 'translateY(300px)' }}>
+               <Card style={{ width: '50rem', margin: 'auto', height: '20rem', border: 'rgba(0, 123, 255, 0.5)', backgroundColor: '#4ba867', transform: 'translateY(300px)' }}>
                     <Card.Body>
                         <Card.Title className="info">Contact Information</Card.Title>
                         <Card.Text>
-                        <div className="info">
+                        <div className="info" style={{display:'inline'}}>
                              <h3>    
                              Name: Mujadid Fadhlullah Hussain
                              </h3>
@@ -26,8 +26,6 @@ function ContactInfo() {
                                  A self-taught developer aspiring to becoming a full-stack developer. 
                              </h3>
                         </div>
-                        <br/>
-                        <br/>
                              <p style={{color:'rgba(300,200,100, 0.5)'}} className="skillz">HTML|CSS|JAVASCRIPT|BOOTSTRAP|REACT|NODE|NEST|MYSQL</p>
                         </Card.Text>
                 <div className="social-links">
